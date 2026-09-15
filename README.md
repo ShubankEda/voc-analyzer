@@ -1,4 +1,4 @@
-# Voice-of-Customer Analyzer — Samsara Driver
+# Voice-of-Customer Analyzer
 
 Categorizing driver complaints from public Google Play reviews,
 with a hand-labeled evaluation set to measure classification accuracy.
