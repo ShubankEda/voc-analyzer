@@ -1,4 +1,33 @@
+# Python
 .venv/
+venv/
+env/
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets — pull_reviews.py reads credentials from the environment
+.env
+.env.*
+!.env.example
+
+# Local tool state
+.claude/settings.local.json
+
+# Logs
+logs/
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# macOS
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
